@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins, sans-serif;
+}
+
+:root {
+    --primary-color: #003147;
+    --secondary-color: #03a9f4;
+}
+body {
+    background-color:#9dc0d1;
+    display: flex;
+    
+    justify-content: center;
+    min-height: 100vh;
+}
+.container
+{
+    position: relative;
+    width: 100%;
+    
+    display: grid;
+    grid-template-columns: 33.334% 66.667% ;
+    max-width: 1000px;
+    min-width: 1000px;
+    box-shadow: 0 35px 55px rgb(0, 0, 0,0.1);
+    margin: 50px;
+    
+}
+.left_side
+{
+    position: relative;
+    background-color: rgb(7, 96, 173);
+   
+    padding: 40px;
+}
+.about_me{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 1px solid rgb(255, 255, 255,0.2); ;
+
+    padding-bottom: 20px;
+   
+    padding: 10px;
+}
+.about_me .IMGX
+{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 70%;
+   overflow: hidden;
+   
+}
+.about_me .IMGX img
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+   
+   object-fit: cover;
+   
+}
+.about_me h2 
+{
+    font-size: 1.5em;
+    margin-top: 20px;
+ text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+     line-height: 1.4em;
+}
+.about_me h3 
+{
+    font-size: 1em;
+    font-weight: 300;
+ text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+     
+}
+.contact_info
+{
+    font-size: 1em;
+    font-weight: 300;
+ 
+    color: #fff;     
+}
+.contact_info ul
+{
+    position: relative;
+       
+}
+.contact_info ul li
+{
+   
+   list-style: none;   
+}
+.contact_info ul li .fa-solid
+{
+   
+    color: #03a9f4;   
+ }
+ .contact_info ul li .fa-regular
+{
+   
+    color: #03a9f4;   
+ }
+ .contact_info ul li .fa-brands
+{
+   
+    color: #03a9f4;   
+ }  
+ .education h3
+ {
+    
+     color: #fff;   
+  }  
+  .education  ul li .h4
+  {
+     
+      color: #03a9f4;   
+   } 
+
+.right_side{
+    position: relative;
+    background-color: #fff;
+   
+    padding: 40px;
+}
